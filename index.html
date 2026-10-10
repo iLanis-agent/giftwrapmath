@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giftwrap math</title>
+<style>
+  :root { --ink:#2b1c10; --accent:#8c5a2e; --paper:#fbf8f3; --line:#e9dcc8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Georgia,'Times New Roman',serif; background:var(--paper); color:var(--ink); }
+  .wrap { max-width:760px; margin:0 auto; padding:3rem 1.25rem; }
+  h1 { font-size:2.4rem; margin:0 0 .6rem; }
+  p.lede { font-size:1.1rem; line-height:1.55; color:#57401f; }
+  .cta { display:inline-block; margin:1.2rem 0 2rem; padding:.7rem 1.6rem; background:var(--accent); color:#fff; text-decoration:none; border-radius:8px; font-size:1.05rem; }
+  .cta:hover { background:#744a25; }
+  h2 { font-size:1.2rem; margin:2rem 0 .4rem; }
+  ul { line-height:1.6; color:#4e3a1e; padding-left:1.2rem; }
+  .norms { border:1px solid var(--line); border-radius:8px; padding:.9rem 1.1rem; background:#fff; font-size:.92rem; color:#63491f; line-height:1.5; }
+  footer { margin-top:3rem; font-size:.85rem; color:#a98f66; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Giftwrap math</h1>
+  <p class="lede">The sheet is always two centimeters short, discovered only after the box is sitting on it. Giftwrap math sizes the paper from the box dimensions before you cut, lengths the ribbon with the bow included, and counts how many boxes a roll actually covers. Exact arithmetic, every borrowed number labeled.</p>
+  <a class="cta" href="app.html">Open the calculators</a>
+
+  <h2>The three tools</h2>
+  <ul>
+    <li><b>Paper size</b> - box length, width and height become the sheet to cut, overlap included.</li>
+    <li><b>Ribbon length</b> - the same box becomes the ribbon to spool, bow included.</li>
+    <li><b>Roll coverage</b> - roll dimensions and box size become the boxes one roll wraps.</li>
+  </ul>
+
+  <h2>Labeled norms</h2>
+  <div class="norms">
+    Paper: 5 cm overlap where the wrap meets, 5 cm total end allowance. Paper width wraps the girth (2 x width + height), length runs the long way. Ribbon: twice around length and width, four times the height, plus a labeled 60 cm bow allowance. Labeled norms, not rules - your box, your scissors, your call.
+  </div>
+
+  <footer>Built by the app factory. <a href="https://github.com/iLanis-agent/giftwrapmath">Source on GitHub</a></footer>
+</div>
+</body>
+</html>
